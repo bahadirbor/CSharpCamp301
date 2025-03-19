@@ -14,6 +14,7 @@ namespace CSharpCamp301.EntityLayer.Concrete
         public bool CategoryStatus { get; set; }
 
         public List<Product> Products { get; set; }
+       
         
     }
 }

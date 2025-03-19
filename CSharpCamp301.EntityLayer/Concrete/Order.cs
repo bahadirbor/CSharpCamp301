@@ -12,7 +12,7 @@ namespace CSharpCamp301.EntityLayer.Concrete
 
         public int ProductId { get; set; }
 
-        public Product Product { get; set; }
+        public virtual Product Product { get; set; }
 
         public int Quantity { get; set; }
 
@@ -20,6 +20,10 @@ namespace CSharpCamp301.EntityLayer.Concrete
 
         public decimal TotalPrice { get; set; }
 
-        public int Cus
+        public int CustomerId { get; set; }
+
+        public virtual Customer Customer { get; set; }
+
+
     }
 }
